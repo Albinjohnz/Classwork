@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+.home{
+    width: 100%;
+    height: 95vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),url(https://wallpaperaccess.com/full/49828.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .content{
+    text-align: center;
+    padding-top:400px ;
+}
+.content h5{ 
+   color: white;
+   font-weight: 700;
+   font-size: 30px;
+}
+.content p{ 
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+ }
+ .content a{
+    border: 2px red;
+    background-color: white;
+    padding: 7px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+ }
+ .content a:hover{
+ color: red;
+ }
+ .cards{
+    display: flex;
+ }
+ #book{
+    text-align: center;
+ }
+ .img-top {
+   width: 100%;
+   height: 15vw;
+   object-fit: cover;
+}
+.card-title{
+   text-align: center;
+}
+.dn{
+   text-align: center;
+   color: red;
+}
+.enquiry{
+   text-align: center;
+}
+#book{
+   border: 2px red;
+   background-color: rgb(47, 0, 255);
+   padding: 0px 20px 0px 20px; 
+   border-radius: 50px;
+   text-decoration: none;
+   color: black;
+   text-align: center;
+}
+.kboat{
+   background-color: rgb(221, 219, 219);
+}
+.boat{
+   background-image: url(.//Aranmula_Boat_Race_A_Grand_Visual_Spectacle_2309.jpg);
+   width: 100%;
+   height: 60vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.contents{
+   text-align: center;
+   padding-top: 250px;
+}
+.contents h5{
+   font-weight: 700;
+   font-size: 40px;
+   color: blue;
+   text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+               1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+   
+}
+.contents p{
+   color: rgb(247, 8, 8);
+}
+.contents a{
+   border: 2px red;
+   background-color: aqua;
+   padding: 7px;
+   border-radius: 3px;
+   text-decoration: none;
+   color: black;
+}
+.north{
+   text-align: center;
+   font-size: 30px;
+}
+.card1{
+   border: solid black 1px;
+   border-radius: 8px;
+   padding: 10px;
+}
+.img-top{
+   border: 1px;
+   border-radius: 5px;
+}
